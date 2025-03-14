@@ -1,0 +1,59 @@
+.template-frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  
+}
+.frame-content{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(./imgplace.png) ;
+    height: 360px;
+    width: 360px;   
+    position: relative;
+    background-color: azure;
+    border: 2px solid #E9C65E;
+    
+}
+
+.frame-content>img{
+    height: 40px;
+    bottom: 15px;
+   position: absolute;
+   right: 20px;
+}
+.fest-motto{
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: .8rem;
+    text-align: left;
+}
+.template-frame > button{
+    height: 1.5rem;
+    width: 7rem;
+    border-radius: 5px;
+}
+.custom-shape-divider-bottom-1711916014 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1711916014 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-bottom-1711916014 .shape-fill {
+    fill: #1B1A1A;
+}
